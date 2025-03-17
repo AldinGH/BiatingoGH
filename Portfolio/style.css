@@ -1,0 +1,131 @@
+body {
+background-image: url(Background_image.png);
+}
+
+h1{
+    margin: auto;
+    font-family:'Times New Romans';
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: aliceblue;
+}
+
+header{
+    margin: 1px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 15px;
+    border: 2px solid white;
+}
+
+nav a{
+    font-size: 1.5rem;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.4s;
+}
+
+nav a:hover{
+    background-color: lightgray;
+    color: black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+main{
+    text-align: center;
+}
+
+h3{
+    display:inline-block ;
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 800px;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+}
+
+section {
+    margin: auto;
+    width: 1000px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color:black;
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+img {
+    
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+div {
+    text-align: center;
+}
+
+.id {
+    visibility: hidden;
+}
+
+.Top {
+    text-align: center;
+    color: white;
+}
+
+.Top a{
+    display:inline-block ;
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 800px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.Top a:hover {
+    cursor: pointer;
+    background-color: lightgray;
+
+}
+
+footer {
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.container {
+    text-align: center;
+}
+
+.emoji-container {
+    display: flex;
+    justify-content: center; 
+}
+
+.emoji-group {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+
+}
